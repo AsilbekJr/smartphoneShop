@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { Box } from "@mui/material";
+import React from "react";
+import Banner from "./components/Banner/Banner";
+import BrandLink from "./components/BrandLink/BrandLink";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
+import Navbar from "./components/Navbars/Navbar";
+import NewProducts from "./components/NewProduct/NewProducts";
+import Payment from "./components/Payment/Payment";
+import TypeInvide from "./components/TypeInvide/TypeInvide";
+import TypeProduct from "./components/TypeProduct/TypeProduct";
+import { MyContextProvider } from "./Context/Context";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+const App = () => {
+  return (<>
+  <MyContextProvider>
+      <Navbar />
+    <Box sx={{padding:"0 2rem"}}>
+      <Banner />
+      <BrandLink />
+      <TypeInvide />
+      <TypeProduct />
+      <NewProducts />
+      <Payment />
+      <Contact />
+    </Box>
+      <Footer />
+  </MyContextProvider>
+  </>
   );
-}
+};
 
 export default App;
