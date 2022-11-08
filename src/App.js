@@ -10,6 +10,7 @@ import Payment from "./components/Payment/Payment";
 import TypeInvide from "./components/TypeInvide/TypeInvide";
 import TypeProduct from "./components/TypeProduct/TypeProduct";
 import { MyContextProvider } from "./Context/Context";
+import Smartphone from './components/Smartphone/Smartphone';
 
 const App = () => {
   return (<>
@@ -25,6 +26,7 @@ const App = () => {
       <Contact />
     </Box>
       <Footer />
+    <Smartphone />
   </MyContextProvider>
   </>
   );

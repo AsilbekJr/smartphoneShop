@@ -26,7 +26,7 @@ const BotttomNavbar = () => {
             <MyCustomTab label="Quloqchinlar" />
           </Grid>
           <Grid item>
-            <MyCustomTab label="Boshqa maxsulotlar" />
+            <MyCustomTab label="Kitoblar" />
           </Grid>
         </Grid>
     </Box>)
