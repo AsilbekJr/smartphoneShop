@@ -11,7 +11,7 @@ const BannerItem1 = () => {
   <BannerContainer >
      <BannerItemContainer>
        <BannerImageContainer  >
-        <BannerImage src="./22ultra.png" alt=""/>
+        <BannerImage src="https://res.cloudinary.com/dkmi1dgqv/image/upload/v1669219517/Mobile%20Markaz/nz-galaxy-s22-ultra-s908-sm-s908ezwdxnz-530779348_pmy8yc.webp" alt="Samsung Galaxy S22 ultra"/>
         </BannerImageContainer> 
         <BannerInfo>
            <BannerInfoTitle>

@@ -15,7 +15,7 @@ import { MyListItemText } from "../../styles/MyMenu";
  
   
   function App() {
-    const [open, setOpen] = useContext(MyContext)
+    const {open, setOpen, type, setType} = useContext(MyContext)
 
   
     const getList = () => (

@@ -11,17 +11,18 @@ import { logoFont, MainNavbar,NavbarContainer, theme,HamburgerMenu,SearchSection
 import { Search, ShoppingBasket, KeyboardArrowDown,Menu } from "@mui/icons-material";
 import { useState } from "react";
 import { Select } from "./../../styles/Navbar";
-import TemporaryDrawer from "./Menu";
-import App from "./Menu";
 import { MyContext } from "../../Context/Context";
 const MyMainNavbar = () => {
   const [currency, setCurrency] = useState("UZS");
   const handleCurrency = (e) => {
     setCurrency(e.target.value);
   };
+  // const {forOpen} = useContext(MyContext);
+  const {open, setOpen,type, setType} = useContext(MyContext);
 
 
-  const [open, setOpen] = useContext(MyContext)
+  
+
   return (
     <>
       <MainNavbar>

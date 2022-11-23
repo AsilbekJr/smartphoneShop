@@ -31,7 +31,7 @@ export const ProductImageContainer = styled(Box)(() => ({
 export const ProductImage = styled("img")(() => ({
   position: "absolute",
   width: "100%",
-  maxHeight: "200px",
+  maxHeight: "230px",
   objectFit: "contain",
   transition: "transform .3s",
 
@@ -40,13 +40,16 @@ export const ProductImage = styled("img")(() => ({
   },
 }));
 export const ProductTitle = styled(Box)(() => ({
+  display:"flex",
+  flexDirection:"column",
+  alignItems:"baseline" ,
   width: "100%",
-  height: "360px",
   padding: "1rem",
 }));
 export const ProductPrice = styled(Typography)(() => ({
   fontSize: "17px",
   color: "color:rgb(75, 75, 75)",
+  lineHeight:"20px"
 }));
 
 export const ProductButton = styled(Button)(() => ({
@@ -83,9 +86,9 @@ export const ProductName = styled(Typography)(({theme}) => ({
   justifyContent: "center",
   marginBottom: "1rem",
   height:"60px",
-  fontSize:"2rem",
+  fontSize:"1.4rem",
   lineHeight:"30px",
-  fontWeight:"700",
+  fontWeight:"600",
   [theme.breakpoints.down('md')]:{
     fontSize:"1.7rem"
   }

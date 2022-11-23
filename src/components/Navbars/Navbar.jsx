@@ -9,7 +9,7 @@ import { useContext } from "react";
 const Navbar = () => {
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.down('md'));
-  const [open, setOpen] = useContext(MyContext)
+  const {open, setOpen,type, setType} = useContext(MyContext)
   return (
     <>
       <AppBar position="static">
