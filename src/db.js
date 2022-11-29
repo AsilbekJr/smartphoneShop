@@ -25,58 +25,43 @@ export const allProductsData = [
         id:7, type:"Noutbuklar", name:"Asus Vivobook Intel Celeron 256gb ssd", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1669130007/Mobile%20Markaz/71S8U9VzLTL._SL1500__ppo9xs.jpg", price:"3 440 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
     },
     {
-        id:8, type:"Smartfonlar", name:"Samsung A12", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1667749929/Mobile%20Markaz/a12_1_aqe7bg.webp", price:"2 000 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+        id:8,budget:true, type:"Smartfonlar", name:"Novey Senat",brand:"novey", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1669223289/Mobile%20Markaz/c4fb6c4c-05dd-41ef-92fe-27965c80bf63_pfsphi.webp", price:"950 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
     },
     {
-        id:9, type:"Smartfonlar", name:"Samsung A12", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1667749929/Mobile%20Markaz/a12_1_aqe7bg.webp", price:"2 000 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+        id:9, budget:true, type:"Smartfonlar",brand:"xiaomi", name:"Redmi 10A", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1669223643/Mobile%20Markaz/smartfon-xiaomi-redmi-10a-2-32gb-sky-blue_nh5exs.jpg", price:"1 500 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
     },
     {
-        id:10, type:"Smartfonlar", name:"Samsung A12", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1667749929/Mobile%20Markaz/a12_1_aqe7bg.webp", price:"2 000 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+        id:10, budget:true, type:"Smartfonlar",brand:"xiaomi", name:"Redmi 10C", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1669223969/Mobile%20Markaz/j6Y37by7KvpKyCoS7qfiWaTlyUtQ8Vxt2xuYsaOfp5nz20f11Hl5Fm79rE0D__of4uov.jpg", price:"1 978 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
     },
     {
-        id:11, type:"Smartfonlar", name:"Samsung A123", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1667749929/Mobile%20Markaz/a12_1_aqe7bg.webp", price:"2 000 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+        id:11,budget:false, brand:"samsung", type:"Smartfonlar", name:"Samsung Galaxy S10", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1669224433/Mobile%20Markaz/img-s10-prismgreen-01_mvxyoj.webp", price:"2 200 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
     },
     {
-        id:12, type:"Smartfonlar", name:"Samsung A12", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1667749929/Mobile%20Markaz/a12_1_aqe7bg.webp", price:"2 000 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+        id:12,budget:false, brand:"honor", type:"Smartfonlar", name:"Honor X6", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1669224686/Mobile%20Markaz/image-29c26b4007da42619144eec861575848_wd9lp8.png", price:"2 100 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
     },
     {
-        id:13, type:"Smartfonlar", name:"Samsung A12", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1667749929/Mobile%20Markaz/a12_1_aqe7bg.webp", price:"2 000 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+        id:13,budget:false, brand:"samsung",internet:"5G", type:"Smartfonlar", name:"Samsung A53", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1669224934/Mobile%20Markaz/164999447530182300741_qs8v7g.avif", price:"3 900 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
     },
     {
-        id:14, type:"Smartfonlar", name:"Samsung A12", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1667749929/Mobile%20Markaz/a12_1_aqe7bg.webp", price:"2 000 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+        id:14,budget:false, brand:"honor", type:"Smartfonlar", name:"Honor X7", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1669225199/Mobile%20Markaz/honor-x7-6gb-128gb-6.74-dual-sim-smartphone_h7oooz.jpg", price:"2 350 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
     },
     {
-        id:15, type:"Smartfonlar", name:"Samsung A12", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1667749929/Mobile%20Markaz/a12_1_aqe7bg.webp", price:"2 000 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+        id:15,budget:false, brand:"apple",  type:"Smartfonlar", name:"Apple Iphone 13 128 GB", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1669310162/Mobile%20Markaz/venvgsL0eYZ346AqzlJM44PJB034qgGKlPMpe9nkMAcps03GdjXzSYceTrbb__mc0kho.jpg", price:"10 181 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
     },
     {
-        id:16, type:"Smartfonlar", name:"Samsung A12", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1667749929/Mobile%20Markaz/a12_1_aqe7bg.webp", price:"2 000 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+        id:16,budget:false, brand:"apple", type:"Smartfonlar", name:"Apple iPhone 14", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1669310257/Mobile%20Markaz/XL7VTJ0NHZCOXZ1DDb8TcwsTomzLS5GPQZuPLjrMIBSOu8hLs7MZtTosnMGd__p2esnd.jpg", price:"11 413 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
     },
     {
-        id:17, type:"Smartfonlar", name:"Samsung A12", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1667749929/Mobile%20Markaz/a12_1_aqe7bg.webp", price:"2 000 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+        id:17,budget:true, brand:"xiaomi", type:"Smartfonlar", name:"Xiaomi Redmi Note 10 4GB/64GB Lake Green", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1669310481/Mobile%20Markaz/DAZ8we8lD6cCMqP2Iz23Ec00l640sJMvUaiUkIiNIun95AIwGcAYtnrsQdpn_wmykqw.jpg", price:"2 927 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
     },
     {
-        id:18, type:"Smartfonlar", name:"Samsung A12", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1667749929/Mobile%20Markaz/a12_1_aqe7bg.webp", price:"2 000 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+        id:18,budget:true, brand:"xiaomi", type:"Smartfonlar", name:"Xiaomi Poco C40 4/64 GB Qora", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1669310747/Mobile%20Markaz/1wXLhmtHw6H5GX28lx5bBDWDS85tpnms1ARrVTaHqidwCQ1dcyxT1bJVyHvJ__mzyb2m.jpg", price:"1 842 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
     },
     {
-        id:19, type:"Smartfonlar", name:"Samsung A12", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1667749929/Mobile%20Markaz/a12_1_aqe7bg.webp", price:"2 000 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+        id:19, budget:false, brand:"xiaomi", type:"Smartfonlar", name:"Xiaomi 12 12/256GB Kulrang", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1669310972/Mobile%20Markaz/3uyq4etA0aUUJRSD4RSYptHTG9CSlUHGQ50BrrhsV2Z6SI9ogPklp3yzqu5W__ios0ks.jpg", price:"7 238 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
     },
     {
-        id:20, type:"Smartfonlar", name:"Samsung A12", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1667749929/Mobile%20Markaz/a12_1_aqe7bg.webp", price:"2 000 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
-    },
-    {
-        id:21, type:"Smartfonlar", name:"Samsung A12", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1667749929/Mobile%20Markaz/a12_1_aqe7bg.webp", price:"2 000 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
-    },
-    {
-        id:22, type:"Smartfonlar", name:"Samsung A12", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1667749929/Mobile%20Markaz/a12_1_aqe7bg.webp", price:"2 000 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
-    },
-    {
-        id:23, type:"Smartfonlar", name:"Samsung A124", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1667749929/Mobile%20Markaz/a12_1_aqe7bg.webp", price:"2 000 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
-    },
-    {
-        id:24, type:"Smartfonlar", name:"Samsung A12", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1667749929/Mobile%20Markaz/a12_1_aqe7bg.webp", price:"2 000 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
-    },
-    {
-        id:25, type:"Smartfonlar", name:"Samsung A12", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1667749929/Mobile%20Markaz/a12_1_aqe7bg.webp", price:"2 000 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+        id:20,  budget:false, brand:"xiaomi", internet:"5G", type:"Smartfonlar", name:"Smartfon Xiaomi 11 Lite 5G NE 8/256 GB", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1669311119/Mobile%20Markaz/49vXuYCibibVLCl6S1GFEF8nJPL43ft5EatUk51GeJYpuzeQxKXG4tctxXvp_kpwazg.png", price:"3 876 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
     },
     {
         id:26, type:"Noutbuklar", name:"Noutbuk HP ProBook 455 AMD Ryzen 5 5600U", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1669130356/Mobile%20Markaz/614PiL2tr7L._SL1000__yk2o2x.jpg", price:"6 950 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
@@ -150,6 +135,18 @@ export const allProductsData = [
     },
     {
         id:49, type:"Quloqchinlar", name:"mi buds 3pro", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1669219070/Mobile%20Markaz/xiaomi-redmi-buds-3-pro-black-650x650_fal03v.jpg", price:"625 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
-    }
+    },
+    {
+        id:50, type:"Kitoblar", name:"Tarixi Muhammadiy", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1669220071/Mobile%20Markaz/tarixi_M_QR-500x500h_pxcpd6.jpg", price:"100 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+    },
+    {
+        id:51, type:"Kitoblar", name:"Den Braun. Ibtido. ", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1669220174/Mobile%20Markaz/Ibtido_jild_uz_xf0zwe.jpg", price:"99 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+    },
+    {
+        id:52, type:"Kitoblar", name:"Javlon Jovliyev. Qo'rqma", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1669220310/Mobile%20Markaz/qo_rqma_ofew1r.jpg", price:"70 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+    },
+    {
+        id:53, type:"Kitoblar", name:" Devid Xaynemayer Xensson. REWORK", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1669220440/Mobile%20Markaz/60ed907a255ca.jpg_np5bfd.webp",price:"99 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+    },
 
 ]

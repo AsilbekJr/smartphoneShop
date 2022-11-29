@@ -14,14 +14,14 @@ export const SectionTitle = styled(Box)(({}) => ({
 
 export const ProductCart = styled(Paper)(() => ({
   maxHeight: "450px",
-  maxWidth: "300px",
+  width: "300px",
   margin: "1rem",
 }));
 
 export const ProductImageContainer = styled(Box)(() => ({
   position: "relative",
   width: "100%",
-  height: "250px",
+  height: "200px",
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
@@ -29,9 +29,8 @@ export const ProductImageContainer = styled(Box)(() => ({
   overflow: "hidden",
 }));
 export const ProductImage = styled("img")(() => ({
-  position: "absolute",
-  width: "100%",
-  maxHeight: "230px",
+  width: "80%",
+  maxHeight: "180px",
   objectFit: "contain",
   transition: "transform .3s",
 
@@ -86,9 +85,10 @@ export const ProductName = styled(Typography)(({theme}) => ({
   justifyContent: "center",
   marginBottom: "1rem",
   height:"60px",
-  fontSize:"1.4rem",
-  lineHeight:"30px",
-  fontWeight:"600",
+  fontSize:"1.2rem",
+  lineHeight:"22px",
+  color:"gray",
+  fontWeight:"700",
   [theme.breakpoints.down('md')]:{
     fontSize:"1.7rem"
   }

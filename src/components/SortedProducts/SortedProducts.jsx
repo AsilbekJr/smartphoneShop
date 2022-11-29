@@ -19,7 +19,7 @@ import { useEffect } from "react";
 
 const SortedProducts = () => {
   const allProducts = useSelector(SelectorAllSortedProduct);
-  const [productPerPage] = useState(12);
+  const [productPerPage] = useState(15);
   const {type,currentPage, setCurrentPage} = useContext(MyContext);
   
 
@@ -68,7 +68,7 @@ const currentProduct = sortedProducts.slice(
         <Grid container spacing={2}>
       {currentProduct.map((product) => 
              
-         (<Grid item xs={12} sm={12} md={4} lg={3}>
+         (<Grid item xs={12} sm={6} md={3} lg={2.4} sx={{display:"flex", justifyContent:"center"}}>
             <ProductCart elevation={4} key={product.id}>
               <ProductImageContainer>
                 <ProductImage src={product.img} />

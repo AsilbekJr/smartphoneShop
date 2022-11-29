@@ -47,7 +47,7 @@ const BrandLink = () => {
       >
         <ListItem sx={listStyle}>
           <ListItemButton sx={{}}>
-            <MyBrandListText primary="SAMSUNG texnikalari" />
+            <MyBrandListText primary="SAMSUNG" />
           </ListItemButton>
         </ListItem>
         {matches ?  <Divider
@@ -58,7 +58,7 @@ const BrandLink = () => {
       />}
         <ListItem sx={listStyle}>
           <ListItemButton>
-            <MyBrandListText primary="REDMI texnikalari" />
+            <MyBrandListText primary="REDMI" />
           </ListItemButton>
         </ListItem>
        {matches ?  <Divider
@@ -69,7 +69,7 @@ const BrandLink = () => {
       />}
         <ListItem sx={listStyle}>
           <ListItemButton>
-            <MyBrandListText primary="APPLE texnikalari" />
+            <MyBrandListText primary="APPLE" />
           </ListItemButton>
         </ListItem>
        {matches ?  <Divider
@@ -102,7 +102,7 @@ const BrandLink = () => {
       />}
         <ListItem sx={listStyle}>
           <ListItemButton>
-            <MyBrandListText primary=" Chegirmalar" />
+            <MyBrandListText primary=" Komputer va jihozlari" />
           </ListItemButton>
         </ListItem>
       </MyBrandList>
