@@ -84,6 +84,7 @@ export const HamburgerMenu = styled(Box)(({theme}) => ({
   zIndex:"999",
   [theme.breakpoints.down('md')]:{
     display:"block",
+    padding:"0 15px"
   }
 }))
 
@@ -112,6 +113,11 @@ export const  LogoSec = styled(Box)(({theme}) => ({
  alignItems:"center",
  gap:"10px",
  [theme.breakpoints.down('lg')]:{
+   flexDirection: "column",
+   lineHeight:"16px",
+   border:".5px solid #FF8C32",
+   padding:"10px",
+   borderRadius:"10px",
    fontSize:"2rem"
 }  
 }))
