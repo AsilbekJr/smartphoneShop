@@ -7,8 +7,8 @@ import {
   IconButton,
   Badge,
 } from "@mui/material";
-import { logoFont, MainNavbar,NavbarContainer, theme,HamburgerMenu,SearchSection,SearchSectionMD,MyAccountCircle,LogoSec,SelectCurrensy, TextNav, MyDivider } from "./../../styles/Navbar";
-import { Search, ShoppingBasket, KeyboardArrowDown,Menu } from "@mui/icons-material";
+import { logoFont,MyShoppingBasket, MainNavbar,NavbarContainer, theme,HamburgerMenu,SearchSection,SearchSectionMD,MyAccountCircle,LogoSec,SelectCurrensy, TextNav, MyDivider } from "./../../styles/Navbar";
+import { Search, KeyboardArrowDown,Menu } from "@mui/icons-material";
 import { useState } from "react";
 import { Select } from "./../../styles/Navbar";
 import { MyContext } from "../../Context/Context";
@@ -24,7 +24,7 @@ const MyMainNavbar = () => {
   
 
   return (
-    <>
+    <> 
       <MainNavbar>
         <NavbarContainer >
           <HamburgerMenu onClick={() => setOpen(!open)}>
@@ -71,7 +71,7 @@ const MyMainNavbar = () => {
             <IconButton>
               <MyDivider ></MyDivider>
               <Badge badgeContent={4} color="success">
-                <ShoppingBasket fontSize="large" sx={{ color: "white" }} />
+                <MyShoppingBasket fontSize="large" sx={{ color: "white" }} />
               </Badge>
             </IconButton>
             <TextNav display={"flex"} alignItems={"center"}>0 {currency}</TextNav>

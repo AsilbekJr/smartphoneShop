@@ -1,7 +1,7 @@
 import { Box, createTheme,Tab, Typography} from "@mui/material"
 import { styled } from "@mui/system"
 import Switch from '@mui/material/Switch';
-import { AccountCircle } from "@mui/icons-material";
+import { AccountCircle,ShoppingBasket } from "@mui/icons-material";
 
 export const MyTopNavbar = styled(Box)(({theme}) => ({
     display:"flex",
@@ -112,7 +112,7 @@ export const  LogoSec = styled(Box)(({theme}) => ({
  alignItems:"center",
  gap:"10px",
  [theme.breakpoints.down('lg')]:{
-   fontSize:"2.5rem"
+   fontSize:"2rem"
 }  
 }))
  
@@ -177,6 +177,7 @@ export const SearchSectionMD = styled(Box)(({theme}) => ({
   [theme.breakpoints.down('md')]:{
    display:"flex",
    alignItems: "center",
+   marginTop: "1rem",
   justifyContent: "space-between",
   }
 }))
@@ -223,6 +224,14 @@ export const MyAccountCircle = styled(AccountCircle)(({theme}) => ({
   [theme.breakpoints.down('lg')]:{
     display:"block",
     margin:"0 1rem"
+  },
+  [theme.breakpoints.down('md')]:{
+   fontSize:"1.5rem"
+  }
+}))
+export const MyShoppingBasket = styled(ShoppingBasket)(({theme}) => ({
+  [theme.breakpoints.down('md')]:{
+   fontSize:"1.5rem"
   }
 }))
 

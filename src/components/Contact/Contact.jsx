@@ -48,7 +48,7 @@ const Contact = () => {
         <div class="mapouter">
             {matches 
             ?
-            (<iframe matches  style={{width:"400px", height:"350px"}} id="gmap_canvas" src="https://maps.google.com/maps?q=40.095755321098885,%2064.68149154597413&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>)
+            (<iframe matches  style={{width:"100%", height:"350px"}} id="gmap_canvas" src="https://maps.google.com/maps?q=40.095755321098885,%2064.68149154597413&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>)
             :
             (<iframe matches  style={{width:"450px", height:"400px"}} id="gmap_canvas" src="https://maps.google.com/maps?q=40.095755321098885,%2064.68149154597413&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>)}
             </div>
