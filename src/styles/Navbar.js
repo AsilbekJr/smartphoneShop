@@ -112,6 +112,7 @@ export const  LogoSec = styled(Box)(({theme}) => ({
   display:"flex",
  alignItems:"center",
  gap:"10px",
+ cursor:"pointer",
  [theme.breakpoints.down('lg')]:{
    flexDirection: "column",
    lineHeight:"16px",

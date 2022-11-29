@@ -3,22 +3,27 @@ import { styled } from '@mui/material/styles';
 
 
 
-export const SectionTitle = styled(Box)(({}) => ({
+export const SectionTitle = styled(Box)(({theme}) => ({
     padding:"30px 0",
     display:"inline",
     fontSize: "50px",
     background: `-webkit-linear-gradient(#ff529e, #3bff8a)`,
      backgroundClip: 'text',
-    textFillColor: 'transparent'
+    textFillColor: 'transparent',
+    textTransform:"uppercase",
+    [theme.breakpoints.down('md')]:{
+      fontSize:"2.2rem"
+    }
+
 }))
 
-export const ProductCart = styled(Paper)(() => ({
+export const ProductCart = styled(Paper)(({theme}) => ({
   maxHeight: "450px",
   width: "300px",
-  margin: "1rem",
+  margin: "1rem"
 }));
 
-export const ProductImageContainer = styled(Box)(() => ({
+export const ProductImageContainer = styled(Box)(({theme}) => ({
   position: "relative",
   width: "100%",
   height: "200px",
@@ -27,6 +32,7 @@ export const ProductImageContainer = styled(Box)(() => ({
   justifyContent: "center",
   cursor: "pointer",
   overflow: "hidden",
+  
 }));
 export const ProductImage = styled("img")(() => ({
   width: "80%",

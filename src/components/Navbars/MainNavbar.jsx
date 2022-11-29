@@ -18,7 +18,7 @@ const MyMainNavbar = () => {
     setCurrency(e.target.value);
   };
   // const {forOpen} = useContext(MyContext);
-  const {open, setOpen,type, setType} = useContext(MyContext);
+  const {open, setOpen, setType} = useContext(MyContext);
 
 
   
@@ -31,7 +31,7 @@ const MyMainNavbar = () => {
              <Menu fontSize="large"/>
           </HamburgerMenu>
           <ThemeProvider theme={logoFont}>
-            <LogoSec>
+            <LogoSec onClick={() => { setOpen(false); setType("") }}>
             <Box  color={"#FF8C32"}>
               Mobile
             </Box>

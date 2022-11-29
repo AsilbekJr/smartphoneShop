@@ -6,7 +6,7 @@ const BannerItem3 = () => {
    const theme = useTheme();
    const matches = useMediaQuery(theme.breakpoints.up('md'));
   return (
-  <Paper sx={{borderRadius:"15px"}}>
+  <Paper>
   <BannerContainer3 >
 {matches 
      ? 

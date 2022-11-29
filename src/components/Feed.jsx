@@ -9,13 +9,15 @@ import TypeProduct from "./TypeProduct/TypeProduct";
 
 export const Feed = () => {
   return (
-    <Box sx={{ padding: "0 2rem" }}>
+    <>
       <Banner />
+    <Box sx={{ padding: "0 2rem" }}>
       <TypeInvide />
       <TypeProduct />
       <NewProducts />
       <Payment />
       <Contact />
     </Box>
+    </>
   );
 };

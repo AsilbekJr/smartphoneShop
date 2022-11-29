@@ -7,7 +7,6 @@ export const BannerContainer = styled(Box)(({theme}) => ({
     height:"350px",
     backgroundColor: "#FAACA8",
 backgroundImage: `linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%)`,
-borderRadius:"15px",
 cursor:"pointer"
 
 
@@ -137,7 +136,6 @@ export const BannerImage2 = styled("img")(({theme}) => ({
     width:"100%",
     height:"350px",
     backgroundColor: "#A9FDD8",
-borderRadius:"15px",
 cursor:"pointer"
 
 

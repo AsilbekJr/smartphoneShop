@@ -3,7 +3,7 @@ import { Paper, Button, Box, Typography, List, ListItem } from "@mui/material";
 import { BannerContainer, BannerImageContainer2,BannerImage2, BannerInfo2,SaleInfo,SaleInfoText } from "../../styles/Banner";
 const BannerItem2 = () => {
   return (
-  <Paper sx={{borderRadius:"15px"}}>
+  <Paper >
   <BannerContainer sx={{
  background:"#333e48"
 }}>
