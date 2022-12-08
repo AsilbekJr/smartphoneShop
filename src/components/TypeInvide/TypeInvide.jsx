@@ -15,7 +15,7 @@ const TypeInvide = () => {
       setSpacing(Number(event.target.value));
     };
 
-   function scrollToTop () {
+  function scrollToTop () {
      window.scrollTo({top: 0, left: 0, behavior: 'smooth'})
    }
  

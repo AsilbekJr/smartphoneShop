@@ -64,6 +64,10 @@ const currentProduct = sortedProducts.slice(
     // 👇️ scroll to top on page load
     window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
   }, []);
+  function scrollToTop () {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'})
+  }
+
 
   return (
 
@@ -99,7 +103,8 @@ const currentProduct = sortedProducts.slice(
         </Grid>)
 )}
         </Grid>
-           {sortedProducts.length > 12 &&   <Pagination count={pageNumber.length} page={currentPage} onChange={handleChange} />}
+           {sortedProducts.length > 12 &&   <Pagination count={pageNumber.length} page={currentPage} 
+           onChange={handleChange} onClick={scrollToTop}/>}
     </Box>
   );
 };
