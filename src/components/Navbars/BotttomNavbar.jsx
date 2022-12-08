@@ -1,6 +1,6 @@
 import {  Box, Grid, useMediaQuery,  } from "@mui/material";
 import React, { useContext, useState } from "react";
-import { HomePage, MyCustomTab } from "../../styles/Navbar";
+import { MyCustomTab } from "../../styles/Navbar";
 import { useTheme } from '@mui/material/styles';
 import { MyContext } from "../../Context/Context";
 const BotttomNavbar = () => {
@@ -14,9 +14,8 @@ const BotttomNavbar = () => {
 
     matches &&   (<Box sx={{ background: "#333e48" }}>  
         <Grid container spacing={3} sx={{display:"flex", justifyContent:"center", alignItems:"center"}}>
-          <Grid item >    
-              <HomePage onClick={() => setType("")} to="/">BOSH SAHIFA</HomePage>
-  
+          <Grid item >
+            <MyCustomTab onClick={() => setType("")}  label="Bosh sahifa" />
           </Grid>
           <Grid item >
             <MyCustomTab onClick={() => setType("Smartfonlar") }  label="Smartfonlar" />
