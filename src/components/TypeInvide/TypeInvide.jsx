@@ -1,6 +1,5 @@
 import * as React from 'react';
 import Grid from '@mui/material/Grid';
-import Paper from '@mui/material/Paper';
 import { StyledPaper } from '../../styles/TypeIvnite';
 import Image from "./image/kalonka2.png"
 import Image2 from "./image/5g.jpg"

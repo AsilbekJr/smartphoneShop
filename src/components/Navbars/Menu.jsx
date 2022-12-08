@@ -11,6 +11,7 @@ Divider,
 import { MyContext } from "../../Context/Context";
 import { MyDrawer } from "../../styles/Drawer";
 import { MyListItemText } from "../../styles/MyMenu";
+import { Link } from "react-router-dom";
   
  
   
@@ -21,10 +22,12 @@ import { MyListItemText } from "../../styles/MyMenu";
       <div style={{ width: "100%", background:"black",color:"white",height:"100%", }}>
           
           <Close color={'white'} fontSize="large" sx={{margin:"3.5rem 2.5rem", cursor:"pointer"}} onClick={() => setOpen(false)}/>
+          <Link style={{textDecoration:"none",color:"white"}} to={'/'}>
           <ListItem button onClick={() => { setOpen(false); setType("") }}>
             <ListItemIcon> <Home sx={{color:"white"}} fontSize="large"/></ListItemIcon>
             <MyListItemText primary={"Bosh sahifa"} />
           </ListItem>
+           </Link>
           <Divider
           orientation="horizontal"
         />

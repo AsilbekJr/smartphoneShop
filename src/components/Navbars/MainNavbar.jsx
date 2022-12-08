@@ -12,6 +12,7 @@ import { Search, KeyboardArrowDown,Menu } from "@mui/icons-material";
 import { useState } from "react";
 import { Select } from "./../../styles/Navbar";
 import { MyContext } from "../../Context/Context";
+import { Link } from "react-router-dom";
 const MyMainNavbar = () => {
   const [currency, setCurrency] = useState("UZS");
   const handleCurrency = (e) => {
@@ -31,6 +32,7 @@ const MyMainNavbar = () => {
              <Menu fontSize="large"/>
           </HamburgerMenu>
           <ThemeProvider theme={logoFont}>
+            <Link style={{textDecoration:"none"}} to={'/'}>
             <LogoSec onClick={() => { setOpen(false); setType("") }}>
             <Box  color={"#FF8C32"}>
               Mobile
@@ -39,6 +41,7 @@ const MyMainNavbar = () => {
               Markaz
             </Box>
             </LogoSec>       
+            </Link>
           </ThemeProvider>
           <ThemeProvider theme={theme}>
             <SearchSection>
