@@ -62,7 +62,7 @@ const currentProduct = sortedProducts.slice(
   return (
 
     <Box>
-        <SectionTitle sx={{display:"flex", justifyContent:"center"}}>5G Smartfonlar</SectionTitle>
+        <SectionTitle sx={{display:"flex", justifyContent:"center"}}>Hamyonbop Smartfonlar</SectionTitle>
         <Grid container spacing={2}>
       {currentProduct.map((product) => 
              
