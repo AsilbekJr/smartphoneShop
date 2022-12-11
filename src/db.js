@@ -184,5 +184,11 @@ export const allProductsData = [
     {
         id:65, type:"Planshetlar", name:" Planshet Xiaomi Pad 5 6 / 128Gb", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1670751208/Mobile%20Markaz/6f325803e13d31ba881ead095500cfadafd09c6aebc8be1de3e55a505ce6a9ac_g96GLH_320l_s3nws1.jpg",price:"2 499 000",newPrice:"2 299 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
     },
+    {
+        id:66, budget:"true", type:"Ko'zoynaklar", name:"Unisex nurlarga qarshi TR90 lupa ko'zoynagi", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1670752191/Mobile%20Markaz/http_3A_2F_2Fimage.eston.top_3A24980_2Ffms_2Fpublic_2F2020-09_2F28-17-30-34-350_2F7HH403076-2_xcnngu.avif",price:"22 500", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+    },
+    {
+        id:67, budget:"true", type:"Ko'zoynaklar", name:"Quyosh nurlariga qarshi Polaroid super Light", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1670752322/Mobile%20Markaz/100-Titanium-Polarized-sunglasses-Polaroid-super-Light-Brand-Designer-Rimless-Polaroid-Gafas-Men-Sun-glasses-eyewear_o9tefn.webp",price:"330 500", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+    },
 
 ]
