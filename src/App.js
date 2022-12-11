@@ -9,9 +9,14 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Discount from "./components/Discount/Discount";
 import FiveG from './components/fiveG/fiveG';
 import Budget from "./components/Budget/Budget";
+import Tablet from './components/TypeProduct/Tablet';
+import Glasses from './components/TypeProduct/Glasses';
+import SmartWatch from './components/TypeProduct/SmartWatch';
+import Gaming from './components/TypeProduct/Gaming';
+import Flashlight from './components/TypeProduct/Flashlight';
 
 const App = () => {
-  const { open, setOpen, type, setType } = useContext(MyContext);
+  const {  type } = useContext(MyContext);
   return (
     <>
       <BrowserRouter>
@@ -25,6 +30,11 @@ const App = () => {
             <Route path="discount" element={<Discount />} />
             <Route path="fiveG" element={<FiveG />} />
             <Route path="budget" element={<Budget />} />
+            <Route path="tablet" element={<Tablet />} />
+            <Route path="glasses" element={<Glasses />} />
+            <Route path="smartwatch" element={<SmartWatch />} />
+            <Route path="gaming" element={<Gaming />} />
+            <Route path="flashlight" element={<Flashlight />} />
           </Routes>
       )}
       <Footer />

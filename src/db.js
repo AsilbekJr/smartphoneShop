@@ -148,5 +148,41 @@ export const allProductsData = [
     {
         id:53, type:"Kitoblar", name:" Devid Xaynemayer Xensson. REWORK", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1669220440/Mobile%20Markaz/60ed907a255ca.jpg_np5bfd.webp",price:"99 000",newPrice:"90 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
     },
+    {
+        id:54, type:"Planshetlar", name:" Planshet Huawei MatePad 11 6/128GB", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1670694901/Mobile%20Markaz/84Z2OagENJA3Z1VQaF1I_pngpyx.png",price:"5 220 000",newPrice:"5 199 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+    },
+    {
+        id:55, type:"Ko'zoynaklar", name:"Antiblik ko‘zoynak TS Computer Glasses, Red", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1670741112/Mobile%20Markaz/0gxwYVtUycaA6OlpT82sl0thJ4k6mZFz8JRbK3pJSWO9bhIn672ZReKj1r1k_uwfxhl.jpg",price:"380 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+    },
+    {
+        id:56, type:"SmartSoatlar", name:" Huawei Band 6", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1667667663/Mobile%20Markaz/smart-braslet-huawei-band-6-black-_ldxban.avif",price:"500 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+    },
+    {
+        id:57, type:"SmartSoatlar", name:"Smart Soat GS8 ultra", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1667672672/Mobile%20Markaz/nGKLUGAW3AhnjCDaxSNQDcK6INC2forq1zRrBVn0_uqewya.jpg",price:"399 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+    },
+    {
+        id:58, type:"O'yinPristavkalari", name:"Telefon o‘yini uchun jostik XO-H10", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1670749133/Mobile%20Markaz/vw04cTEDvqcGC4FUrmsqKVPEd6tTbJqvOe5RMdhfC8UrV6ux7EdvsGh0YUMR__xjrzuo.jpg",price:"195 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+    },
+    {
+        id:59, type:"O'yinPristavkalari", name:"Rangli joystiklar, PlayStation 4 uchun, LUX COPY", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1670749655/Mobile%20Markaz/165484043328398400968_s5doao.avif",price:"562 000",newPrice:"505 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+    },
+    {
+        id:60, type:"O'yinPristavkalari", name:"Joystik Sony DualSense Playstation 5 uchun", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1670749989/Mobile%20Markaz/pult-upravleniya-sony-ps5-joystick-white_lbz1mv.jpg",price:"1 130 000",newPrice:"1 017 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+    },
+    {
+        id:61, type:"Chiroqlar", name:"Chiroq Lumidesk LD-012", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1670750310/Mobile%20Markaz/fm5h2hggdx5qujj1400uo4bj7o3ea12m_p9grrh.jpg",price:"80 000",newPrice:"72 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+    },
+    {
+        id:62, type:"Chiroqlar", name:"Qo'l fonari KM-2603", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1670750835/Mobile%20Markaz/https_3A_2F_2Feps-kz.kz_2Fuploads_2Fimages_2Fe48059604883dae84413428050631332_ekqmm7.avif",price:"165 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+    },
+    {
+        id:63, type:"Chiroqlar", name:"Chiroq Lumidesk LD-044", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1670750698/Mobile%20Markaz/1d5e1949951e9edb0fdb63db85bbdfa3_tpsiqd.jpg",price:"296 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+    },
+    {
+        id:64, type:"Planshetlar", name:" Planshet Xiaomi Pad 5 6 / 128Gb", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1670750983/Mobile%20Markaz/18e4e5c312b147d25edb09602943d6ea2021092513525741142L1twkMt1fM.png_qjutkz.webp", price:"4 359 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+    },
+    {
+        id:65, type:"Planshetlar", name:" Planshet Xiaomi Pad 5 6 / 128Gb", img:"https://res.cloudinary.com/dkmi1dgqv/image/upload/v1670751208/Mobile%20Markaz/6f325803e13d31ba881ead095500cfadafd09c6aebc8be1de3e55a505ce6a9ac_g96GLH_320l_s3nws1.jpg",price:"2 499 000",newPrice:"2 299 000", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sunt magnam explicabo rerum saepe distinctio. Dolorem voluptatem beatae totam? At nesciunt deleniti blanditiis harum consequatur? Velit architecto atque dolore expedita."
+    },
 
 ]
