@@ -15,14 +15,12 @@ import {
   } from "../../styles/main";
 import { ShoppingCart } from "@mui/icons-material";
 import { MyContext } from "../../Context/Context";
-import { useEffect } from "react";
+import { Link, useParams } from "react-router-dom";
 
-const SortedProducts = () => {
+const Smartphones = () => {
   const allProducts = useSelector(SelectorAllSortedProduct);
   const [productPerPage] = useState(15);
   const {type,currentPage, setCurrentPage} = useContext(MyContext);
-  
-
 
 
   
@@ -36,13 +34,11 @@ const SortedProducts = () => {
   
   const sortedProducts = [];
   allProducts.forEach(product => {
-    if(product.type === type ){
+    if(product.type === "Smartfonlar" ){
       sortedProducts.push(product)
     }
   })
-  useEffect(() => {
-  
-},[type])
+ 
 
 const currentProduct = sortedProducts.slice(
   indexOfFirstProduct,
@@ -60,10 +56,7 @@ const currentProduct = sortedProducts.slice(
   for (let i = 1; i <= Math.ceil(totalProduct / productPerPage); i++) {
     pageNumber.push(i);
   }
-  useEffect(() => {
-    // 👇️ scroll to top on page load
-    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
-  }, []);
+
   function scrollToTop () {
     window.scrollTo({top: 0, left: 0, behavior: 'smooth'})
   }
@@ -78,9 +71,11 @@ const currentProduct = sortedProducts.slice(
              
          (<Grid item xs={12} sm={6} md={3} lg={2.4} sx={{display:"flex", justifyContent:"center"}}>
             <ProductCart elevation={4} key={product.id}>
+              <Link to={`/Smartfonlar/${product.id}`}>
               <ProductImageContainer>
                 <ProductImage src={product.img} />
               </ProductImageContainer>
+              </Link>
               <ProductTitle>
                 <ProductName>
                  {product.name}
@@ -112,4 +107,4 @@ const currentProduct = sortedProducts.slice(
 
 
 
-export default SortedProducts;
+export default Smartphones;

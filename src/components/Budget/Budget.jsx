@@ -15,7 +15,7 @@ import {
   } from "../../styles/main";
 import { ShoppingCart } from "@mui/icons-material";
 import { MyContext } from "../../Context/Context";
-import { useEffect } from "react";
+import { Link } from 'react-router-dom';
 
 const Budget = () => {
   const allProducts = useSelector(SelectorAllSortedProduct);
@@ -68,9 +68,11 @@ const currentProduct = sortedProducts.slice(
              
          (<Grid item xs={12} sm={6} md={3} lg={2.4} sx={{display:"flex", justifyContent:"center"}}>
             <ProductCart elevation={4} key={product.id}>
+            <Link to={`/budget/${product.id}`}> 
               <ProductImageContainer>
                 <ProductImage src={product.img} alt={product.name}/>
               </ProductImageContainer>
+            </Link>
               <ProductTitle>
                 <ProductName>
                  {product.name}

@@ -18,9 +18,17 @@ import {
   ArrowBackIosNew,
 } from "@mui/icons-material";
 import { useSelector } from "react-redux";
-import { selectorAllNewProduct } from "../../redux/newProductSlice";
+import { SelectorAllSortedProduct } from "../../redux/sortedProductSlice";
 
 const NewProducts = () => {
+  const allProducts = useSelector(SelectorAllSortedProduct);
+  const sortedProducts = [];
+
+  allProducts.forEach(product => {
+    if(product.proType){
+      sortedProducts.push(product)
+    }
+  })
   var settings = {
     dots: false,
     infinite: false,
@@ -62,7 +70,6 @@ const NewProducts = () => {
   const slider = useRef(null);
 
 
-  const products = useSelector(selectorAllNewProduct);
 
 
   return (
@@ -79,7 +86,7 @@ const NewProducts = () => {
       </ArrowButtonContainer>
       <div>
         <Slider ref={slider} {...settings}>
-          {products.map((item) => (
+          {sortedProducts.map((item) => (
             <ProductCart elevation={4} key={item.id}>
               <ProductImageContainer>
                 <ProductImage src={item.img} />

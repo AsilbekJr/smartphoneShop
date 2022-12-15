@@ -1,5 +1,5 @@
 import { AppBar,useMediaQuery } from "@mui/material";
-import BotttomNavbar from "./BotttomNavbar";
+import BottomNavbar from "./BottomNavbar";
 import MyMainNavbar from "./MainNavbar";
 import App from "./Menu";
 import TopNavbar from "./TopNavbar";
@@ -15,7 +15,7 @@ const Navbar = () => {
       <AppBar position="static">
         <TopNavbar />
         <MyMainNavbar />
-        <BotttomNavbar sx={{background: "white"}}/>
+        <BottomNavbar sx={{background: "white"}}/>
       </AppBar>
       <App /> 
      {!matches &&  setOpen(false) }

@@ -225,19 +225,19 @@ alignItems:"center",
   fontSize:"15px",
 },
 }))
-export const HomePage = styled(Link)(({theme}) => ({
- 
+export const MenuRouting = styled(Link)(({theme}) => ({
   color:"#fff",
   display:"flex",
   alignItems:"center",
-    color:"#92999e",
+  textTransform:"uppercase",
+  color:"#92999e",
    " &:hover":{
      color:"#92999e"
     },
     fontWeight:"700",
-    textTransform:"capitalize",
-    fontSize:"13px",
-    textDecoration:"none"
+    fontSize:"12.45px",
+    textDecoration:"none",
+    marginRight:"1rem"
   }))
   
 
