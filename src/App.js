@@ -1,9 +1,8 @@
 
-import React, { useContext } from "react";
+import React  from "react";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbars/Navbar";
 import { Feed } from "./components/Feed";
-import { MyContext } from "./Context/Context";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Discount from "./components/Discount/Discount";
 import FiveG from './components/fiveG/fiveG';
@@ -22,7 +21,6 @@ import Accessories from './components/Products/Accessories';
 import Speakers from './components/Products/Speakers';
 
 const App = () => {
-  const { type } = useContext(MyContext);
   return (
     <>
       <BrowserRouter>
@@ -31,12 +29,17 @@ const App = () => {
     
             <Route path="/" element={<Feed />} />
             <Route path="Smartfonlar" element={<Smartphones/>}/>
+            <Route path={`Smartfonlar/:id`} element={<ProductInfo/>}/>
             <Route path="Kitoblar" element={<Books/>}/>
+            <Route path={`Kitoblar/:id`} element={<ProductInfo/>}/>
             <Route path="Quloqchinlar" element={<Earphones/>}/>
+            <Route path={'Quloqchinlar/:id'} element={<ProductInfo/>}/>
             <Route path="Noutbuklar" element={<Laptops/>}/>
+            <Route path={'Noutbuklar/:id'} element={<ProductInfo/>}/>
             <Route path="Aksessuarlar" element={<Accessories/>}/>
+            <Route path={'Aksessuarlar/:id'} element={<ProductInfo/>}/>
             <Route path="Kalonkalar" element={<Speakers/>}/>
-            <Route path={`${type}/:id`} element={<ProductInfo/>}/>
+            <Route path={'Kalonkalar/:id'} element={<ProductInfo/>}/>
             
 
             <Route path="discount" element={<Discount />} />

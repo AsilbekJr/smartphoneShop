@@ -14,7 +14,11 @@ export const LeftSide = styled(Grid)(({theme}) => ({
 }))
 export const Image = styled("img")(({theme}) => ({
     width:"80%",
-    objectFit:"contain"
+    maxHeight:"380px",
+    objectFit:"contain",
+    [theme.breakpoints.down("sm")]:{
+        maxHeight:"250px",
+    }
 }))
 export const RightSide = styled(Grid)(({theme}) => ({
  marginTop:"2rem"
@@ -50,6 +54,10 @@ export const InfoListItem = styled(Box)(({theme}) => ({
 }))
 
 export const InfoTitle = styled(Typography)(({theme}) => ({
-   
     padding:"2rem 0 0 5rem",
+    [theme.breakpoints.down("sm")]:{
+        padding:"1rem 0 0 2rem",
+        fontSize:"2rem"
+        
+    }
 }))

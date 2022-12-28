@@ -1,5 +1,5 @@
 import {  Box, Grid, useMediaQuery,  } from "@mui/material";
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import {  MenuRouting } from "../../styles/Navbar";
 import { useTheme } from '@mui/material/styles';
 import { MyContext } from "../../Context/Context";
@@ -10,7 +10,7 @@ const BotttomNavbar = () => {
   
   //  const { ...forType} = useContext(MyContext);
 
-   const {setType,type, setCurrentPage} = useContext(MyContext);
+   const {setType, setCurrentPage} = useContext(MyContext);
   return (
 
     matches &&   (<Box sx={{ background: "#333e48" }}>  
