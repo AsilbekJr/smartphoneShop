@@ -26,7 +26,7 @@ const SearchProduct = () => {
     <Box>
         <Grid container spacing={2}>
       {allProducts.filter(pro => (
-        pro.name.toLowerCase().includes(searchProduct ? searchProduct : <div>Hello</div>)
+        pro.name.toLowerCase().includes(searchProduct.toLowerCase())
       )).map((product) => 
              
          (<Grid item xs={12} sm={6} md={3} lg={2.4} sx={{display:"flex", justifyContent:"center"}}>

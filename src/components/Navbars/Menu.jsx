@@ -49,7 +49,7 @@ import { Link } from "react-router-dom";
           </ListItem>
         </Link>
           <Divider orientation="horizontal" />
-          <Link style={{textDecoration:"none",color:"white"}} to={'Noutbuklar'}>
+          <Link style={{textDecoration:"none",color:"white"}} to={'Aksessuarlar'}>
 
           <ListItem  onClick={() => { setOpen(false); setType("Aksessuarlar"); setCurrentPage(1) }}>
             <ListItemIcon> <Headset sx={{color:"white"}} fontSize="large"/> </ListItemIcon>
