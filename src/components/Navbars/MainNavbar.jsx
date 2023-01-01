@@ -18,9 +18,8 @@ const MyMainNavbar = () => {
   const handleCurrency = (e) => {
     setCurrency(e.target.value);
   };
-  // const {forOpen} = useContext(MyContext);
-  const {open, setOpen, setType,setCurrentPage} = useContext(MyContext);
-
+  const {open, setOpen, setType,setCurrentPage,setSearchProduct} = useContext(MyContext);
+ 
 
   
 
@@ -49,6 +48,7 @@ const MyMainNavbar = () => {
                 id="outlined-search"
                 type="search"
                 placeholder="Search"
+                onChange = {(e) => setSearchProduct(e.target.value)}
               ></TextField>
               <Box sx={{ display: "flex", justifyContent: "center" }}>
                 <Search fontSize="large" />
@@ -83,6 +83,7 @@ const MyMainNavbar = () => {
         <ThemeProvider theme={theme}>
             <SearchSectionMD>
               <TextField
+                onChange = {(e) => setSearchProduct(e.target.value)}
                 id="outlined-search"
                 type="search"
                 placeholder="Search"

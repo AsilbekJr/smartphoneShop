@@ -6,7 +6,7 @@ import TopNavbar from "./TopNavbar";
 import { useTheme } from '@mui/material/styles';
 import { MyContext } from "../../Context/Context";
 import { useContext } from "react";
-const Navbar = () => {
+const Navbar = ({setSearchPro}) => {
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.down('md'));
   const {setOpen} = useContext(MyContext)
@@ -14,7 +14,7 @@ const Navbar = () => {
     <>
       <AppBar position="static">
         <TopNavbar />
-        <MyMainNavbar />
+        <MyMainNavbar  setSearchPro={setSearchPro}/>
         <BottomNavbar sx={{background: "white"}}/>
       </AppBar>
       <App /> 
