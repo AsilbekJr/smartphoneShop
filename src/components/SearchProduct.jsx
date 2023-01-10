@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { useSelector } from "react-redux";
+import { useSelector,useDispatch } from "react-redux";
 import { Box, Grid } from '@mui/material';
 import { SectionTitle } from "../styles/main";
 import {
@@ -15,13 +15,14 @@ import { ShoppingCart } from "@mui/icons-material";
 import { Link } from "react-router-dom";
 import { SelectorAllSortedProduct } from "../redux/sortedProductSlice";
 import { MyContext } from '../Context/Context';
+import { addToCart } from "../redux/cartSlice";
 
 const SearchProduct = () => {
   const allProducts = useSelector(SelectorAllSortedProduct);
 
   const {searchProduct} = useContext(MyContext)
 
-
+const dispatch = useDispatch()
   return (
     <Box>
         <Grid container spacing={2}>
@@ -50,6 +51,7 @@ const SearchProduct = () => {
                   }}
                   variant="contained"
                   endIcon={<ShoppingCart />}
+                  onClick={() => dispatch(addToCart(product))}
                 >
                   Add to cart
                 </ProductButton>

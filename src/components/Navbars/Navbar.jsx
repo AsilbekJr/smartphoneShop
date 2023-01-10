@@ -12,7 +12,7 @@ const Navbar = ({setSearchPro}) => {
   const {setOpen} = useContext(MyContext)
   return (
     <>
-      <AppBar position="static">
+      <AppBar position="static" sx={{matginTop:"auto"}}>
         <TopNavbar />
         <MyMainNavbar  setSearchPro={setSearchPro}/>
         <BottomNavbar sx={{background: "white"}}/>

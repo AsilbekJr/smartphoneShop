@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import Pagination from '@mui/material/Pagination';
 import { Box, Grid } from '@mui/material';
 import { SectionTitle } from "../../styles/main";
@@ -16,6 +16,7 @@ import {
 import { ShoppingCart } from "@mui/icons-material";
 import { MyContext } from "../../Context/Context";
 import { Link, useParams } from "react-router-dom";
+import { addToCart } from "../../redux/cartSlice";
 
 const Books = () => {
   const allProducts = useSelector(SelectorAllSortedProduct);
@@ -61,7 +62,7 @@ const currentProduct = sortedProducts.slice(
     window.scrollTo({top: 0, left: 0, behavior: 'smooth'})
   }
 
-
+const dispatch = useDispatch()
   return (
 
     <Box>
@@ -90,6 +91,7 @@ const currentProduct = sortedProducts.slice(
                   }}
                   variant="contained"
                   endIcon={<ShoppingCart />}
+                  onClick={() => dispatch(addToCart(product))}
                 >
                   Add to cart
                 </ProductButton>

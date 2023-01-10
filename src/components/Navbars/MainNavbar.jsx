@@ -13,13 +13,15 @@ import { useState } from "react";
 import { Select } from "./../../styles/Navbar";
 import { MyContext } from "../../Context/Context";
 import { Link } from "react-router-dom";
+import { useSelector } from 'react-redux';
 const MyMainNavbar = () => {
   const [currency, setCurrency] = useState("UZS");
   const handleCurrency = (e) => {
     setCurrency(e.target.value);
   };
   const {open, setOpen, setType,setCurrentPage,setSearchProduct} = useContext(MyContext);
- 
+
+  const cartItem = useSelector((state) => state.cart.cart)
 
   
 
@@ -73,9 +75,11 @@ const MyMainNavbar = () => {
             </TextNav>
             <IconButton>
               <MyDivider ></MyDivider>
-              <Badge badgeContent={4} color="success">
+              <Link to="cart">
+              <Badge badgeContent={cartItem.length ? cartItem.length : 0 } color="success">
                 <MyShoppingBasket fontSize="large" sx={{ color: "white" }} />
               </Badge>
+              </Link>
             </IconButton>
             <TextNav display={"flex"} alignItems={"center"}>0 {currency}</TextNav>
           </Box>

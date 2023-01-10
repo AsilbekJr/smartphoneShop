@@ -17,8 +17,9 @@ import {
   ArrowForwardIos,
   ArrowBackIosNew,
 } from "@mui/icons-material";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { SelectorAllSortedProduct } from "../../redux/sortedProductSlice";
+import { addToCart } from "../../redux/cartSlice";
 
 const NewProducts = () => {
   const allProducts = useSelector(SelectorAllSortedProduct);
@@ -69,6 +70,7 @@ const NewProducts = () => {
  
   const slider = useRef(null);
 
+const dispatch = useDispatch();
 
 
 
@@ -100,10 +102,10 @@ const NewProducts = () => {
                   sx={{
                     width: "100%",
                     margin: "1rem 0",
-                    backgroundColor: "#000",
                   }}
                   variant="contained"
                   endIcon={<ShoppingCart />}
+                  onClick={() => dispatch(addToCart(item))}
                 >
                   Add to cart
                 </ProductButton>

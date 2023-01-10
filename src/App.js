@@ -22,13 +22,14 @@ import Speakers from './components/Products/Speakers';
 import SearchProduct from "./components/SearchProduct";
 import { useContext } from "react";
 import { MyContext } from "./Context/Context";
+import Cart from "./components/Cart";
 
 const App = () => {
  const {searchProduct} = useContext(MyContext)
  
   return (
     
-      <>
+      <div>
       <Navbar/>
 
           <Routes>           
@@ -70,12 +71,14 @@ const App = () => {
 
             <Route path="flashlight" element={searchProduct ? <SearchProduct /> :<Flashlight />} />
             <Route path="flashlight/:id" element={searchProduct ? <SearchProduct /> :<ProductInfo />} />
+
+            <Route path="cart" element={<Cart />}/>
             
            
         </Routes>
       
-      <Footer />
-      </>
+     <Footer />
+      </div>
   );
 };
 
